@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<style type="text/css">
+ 
+.zebra{
+	background-color: #f0f095;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+    $("tr:even").addClass("zebra");
+});
+</script>
+
+</head>
+<body>
+
+
+<table border="2" bordercolor="#f0f095"  width="400px" >
+  <tr>
+    <th>Student name</th>
+    <th>Marks in Science</th>
+  </tr>
+  <tr>
+    <td>Meir</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td>Zhanerke</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td>Zhansaya</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td>Maira</td>
+    <td>0.00</td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
